@@ -1,0 +1,5 @@
+http://localhost:8080/invoice?from=2022-06-05T00:00:00&to=2022-06-06T15:18:00&pageSize=100&pageOffset=0
+
+###
+http://localhost:8080/invoice/6891152920-20221009-FF60D4-6EA2BC-EF
+Authorization: Basic {{username}} {{password}}

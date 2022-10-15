@@ -1,4 +1,4 @@
-package com.example;
+package pl.hack4law.assistant;
 
 import io.micronaut.runtime.EmbeddedApplication;
 import io.micronaut.test.extensions.junit5.annotation.MicronautTest;

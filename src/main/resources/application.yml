@@ -4,7 +4,7 @@ micronaut:
   metrics:
     export:
       azuremonitor:
-        enabled: true
+        enabled: false
         instrumentationKey: ${AZUREMONITOR_INSTRUMENTATION_KEY}
         step: PT1M
     enabled: true
@@ -12,3 +12,12 @@ netty:
   default:
     allocator:
       max-order: 3
+
+ksef:
+  token:
+  environment: test
+  nip: 6891152920
+
+auth:
+  user: hack4law
+  password: d95DaH34jcoP

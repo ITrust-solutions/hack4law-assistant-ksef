@@ -1,0 +1,20 @@
+version: '3'
+services:
+
+  service:
+    image: hack4law.azurecr.io/hack4law-assistant-ksef:0.1
+    ports:
+      - "8080:8080"
+    environment:
+      - AUTH_USER=hack4law
+      - AUTH_PASSWORD=d95DaH34jcoP
+      - KSEF_TOKEN=
+      - KSEF_ENVIRONMENT=test
+      - KSEF_NIP=nip
+
+
+
+
+
+
+

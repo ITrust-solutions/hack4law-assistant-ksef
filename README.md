@@ -1,3 +1,9 @@
+## About this module
+
+It is simple service to download e-Invoices form KSeF prepared for Hack4Law 2022 contest. 
+
+It is not only prototype, do not use it on production. 
+
 ## Micronaut 3.7.1 Documentation
 
 - [User Guide](https://docs.micronaut.io/3.7.1/guide/index.html)
