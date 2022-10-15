@@ -1,0 +1,14 @@
+micronaut:
+  application:
+    name: hack4lawAssistantKsef
+  metrics:
+    export:
+      azuremonitor:
+        enabled: true
+        instrumentationKey: ${AZUREMONITOR_INSTRUMENTATION_KEY}
+        step: PT1M
+    enabled: true
+netty:
+  default:
+    allocator:
+      max-order: 3

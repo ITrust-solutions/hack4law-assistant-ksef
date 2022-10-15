@@ -1,0 +1,6 @@
+applicationType: default
+defaultPackage: com.example
+testFramework: junit
+sourceLanguage: java
+buildTool: maven
+features: [annotation-api, app-name, asciidoctor, github-workflow-azure-container-instance-graalvm, graalvm, http-client, jackson-databind, java, java-application, jib, junit, lombok, management, maven, micrometer, micrometer-azure-monitor, netty-server, openapi, readme, shade, slf4j-simple, yaml]
