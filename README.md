@@ -4,6 +4,39 @@ It is simple service to download e-Invoices form KSeF prepared for Hack4Law 2022
 
 It is not only prototype, do not use it on production. 
 
+## Technology 
+
+- Java GraalVM 11, Micronaut, Docker
+
+## How to build Java Natve Image and pack it into Docker container
+
+````shell
+mvn -Pnative,graalvm package
+make docker
+````
+
+## Sample REST requests
+
+In `test.http` file you can find simple REST requests in IntellJ Rest Client format (and command line `http` tool).
+You need create config `http-client.private.env.json` with proper variables like eq.:
+
+````json
+{
+  "test": {
+    "username": ".....",
+    "password": "..."
+  },
+  "dev": {
+    "username": "....",
+    "password": "...."
+  },
+  "docker": {
+    "username": ".....",
+    "password": "..."
+  }
+}
+````
+
 ## Micronaut 3.7.1 Documentation
 
 - [User Guide](https://docs.micronaut.io/3.7.1/guide/index.html)

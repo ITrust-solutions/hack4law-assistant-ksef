@@ -269,4 +269,13 @@
         </plugins>
     </build>
 
+    <profiles>
+        <profile>
+            <id>native</id>
+            <properties>
+                <packaging>native-image</packaging>
+            </properties>
+        </profile>
+    </profiles>
+
 </project>

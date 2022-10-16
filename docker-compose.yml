@@ -8,9 +8,9 @@ services:
     environment:
       - AUTH_USER=hack4law
       - AUTH_PASSWORD=d95DaH34jcoP
-      - KSEF_TOKEN=
+      - KSEF_TOKEN=d4be2a49291b43f321e99d15dbf91c4ab31db20d363f6fa04e59c3adef316f0b
       - KSEF_ENVIRONMENT=test
-      - KSEF_NIP=nip
+      - KSEF_NIP=6891152920
 
 
 

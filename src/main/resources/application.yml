@@ -14,7 +14,7 @@ netty:
       max-order: 3
 
 ksef:
-  token:
+  token: d4be2a49291b43f321e99d15dbf91c4ab31db20d363f6fa04e59c3adef316f0b
   environment: test
   nip: 6891152920
 
